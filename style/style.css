@@ -267,6 +267,8 @@ footer {
   background-color: hsl(243, 87%, 12%);
   width: 100%;
   color: hsl(240, 75%, 98%);
+  display: flex;
+  flex-direction: column;
 }
 
 .container {
@@ -331,6 +333,14 @@ footer ul li a {
   margin-right: 10px;
 }
 
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
 @media all and (min-width: 900px) {
   nav {
     padding: 3%;
@@ -343,7 +353,7 @@ footer ul li a {
   .hero-section {
     flex-direction: row-reverse;
     height: 80vh;
-    margin-bottom: 7%;
+    margin-bottom: 2%;
   }
 
   .illustration {
@@ -414,7 +424,7 @@ footer ul li a {
 
   .last-content {
     flex-direction: row;
-    height: 40vh;
+    height: 20vh;
     padding: 5%;
     justify-content: center;
   }
@@ -439,7 +449,11 @@ footer ul li a {
     flex-direction: row;
     align-items: center;
     padding: 5%;
-    height: 60vh;
+    height: 50vh;
+  }
+
+  .contact {
+    height: 20vh;
   }
 
   .social {
